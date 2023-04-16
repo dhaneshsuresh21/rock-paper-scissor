@@ -1,0 +1,42 @@
+.game-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* center align the game-container */
+    
+    
+  }
+  
+  .user{
+    width:30%;
+    margin-right: 10px;
+    /* background-color: blueviolet; */
+  } 
+  .computer {
+    /* background-color: blue; */
+    margin-left: 10px;
+    padding: 5px;
+    width:30%;
+  }
+  
+
+  .buttons{
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  .buttons .rock-button,.buttons .paper-button,.buttons .scissor-button{
+    background-color: white;
+    font-weight: bold;
+    font-size:larger;
+    cursor: pointer;
+  }
+
+  .new-h1{
+    text-align: center;
+
+  }
+
+  h1{
+    text-align: center;
+  }
